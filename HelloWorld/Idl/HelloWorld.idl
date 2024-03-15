@@ -1,0 +1,10 @@
+[
+	uuid(5B1694AE-BB78-4474-9C33-C56006124C0D),
+		version(1.0),
+]
+interface HelloWorld
+{
+	void Hello(
+		handle_t hBinding,
+		[in, string] const char* name);
+}
